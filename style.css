@@ -13,7 +13,7 @@ body {
   background: url("asset/background.png") no-repeat center center;
   background-size: cover;
 }
-
+                                                                               
 #bird {
   width: 70px;
   height: 60px;
@@ -51,4 +51,20 @@ body {
 /* session2 */
 #start-btn:hover {
   background-color: #218838;
+}
+
+/* session 3 */
+.pipe {
+  position: absolute;
+  width: 60px;
+  background-color: green;
+}
+
+.top-pipe {
+  top: 0;
+  border-bottom: 5px solid darkgreen;
+}
+
+.bottom-pipe {
+  border-top: 5px solid darkgreen;
 }
