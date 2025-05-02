@@ -13,7 +13,7 @@ body {
   background: url("asset/background.png") no-repeat center center;
   background-size: cover;
 }
-                                                                               
+
 #bird {
   width: 70px;
   height: 60px;
@@ -23,6 +23,10 @@ body {
   left: 40%;
   background: url("asset/bird.png") no-repeat center center;
   background-size: cover;
+
+  /* session 4 : New for rotation */
+  transform-origin: center;
+  transition: transform 0.1s linear;
 }
 
 #score {
@@ -53,7 +57,7 @@ body {
   background-color: #218838;
 }
 
-/* session 3 */
+/* sessiob 3 */
 .pipe {
   position: absolute;
   width: 60px;
@@ -67,4 +71,34 @@ body {
 
 .bottom-pipe {
   border-top: 5px solid darkgreen;
+}
+
+/* session 4 */
+#mute-btn {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* optional: make it look better when hovering */
+#mute-btn:hover {
+  background-color: #c82333;
+}
+
+/* session 4 */
+
+#difficulty-select {
+  position: absolute;
+  top: 100px;
+  right: 20px;
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 5px;
 }
